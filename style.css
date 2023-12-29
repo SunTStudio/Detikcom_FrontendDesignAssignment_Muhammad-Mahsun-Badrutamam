@@ -1,0 +1,60 @@
+body {
+            font-family: 'montserrat', sans-serif;
+        }   
+
+#hero {
+    background-image: url('/img/bg-desktop-1.png');
+    background-size: cover;
+    background-position: center;
+    height: 150vh;
+}
+
+.shadow-text {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+#informasi p{
+    line-height: 1.3;
+    margin: 0.42rem;
+    /* padding: 0;   */
+}        
+
+.image-zoom {
+    overflow: hidden;
+    position: relative;
+}
+
+.image-zoom img {
+    transition: transform 0.3s ease; /* Efek transisi saat zoom */
+}
+
+.image-zoom:hover img {
+    transform: scale(1.2); /* Skala gambar saat dihover */
+}
+
+.carousel-indicators img{
+    width: 27.5vh;
+    display: block;
+    filter: grayscale(100%);
+}
+
+.carousel-indicators button.active img {
+    filter: grayscale(0%);
+}
+
+.carousel-indicators button{
+    width: max-content!important;
+}
+
+.carousel-indicators{
+    position: unset;
+
+}
+
+#berita {
+    background-image: url('/img/bg-desktop-2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 230vh;
+}
