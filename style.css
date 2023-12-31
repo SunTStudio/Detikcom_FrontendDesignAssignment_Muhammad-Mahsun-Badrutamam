@@ -192,6 +192,14 @@ body {
     width: auto;
     height: 380vh;
 }
+
+.card i{
+    position: absolute; 
+    float: left;
+    top: 10px; 
+    left: 50vh;
+    
+}
 }
 
 
@@ -244,4 +252,19 @@ body {
     height: 320vh;
 }
 
+.card i{
+    position: absolute; 
+    float: left;
+    top: 10px; 
+    left: 35vh;
+    
+}
+
+}
+
+@media screen and (max-width: 580px) {
+#sponsor img{
+    width: auto;
+    height: 4vh;
+}
 }
