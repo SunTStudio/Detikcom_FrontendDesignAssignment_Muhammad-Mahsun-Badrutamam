@@ -56,7 +56,7 @@ body {
 }
 
 #hero {
-    background-image: url('/img/bg-desktop-1.png');
+    background-image: url('/img/bg/bg-desktop-1.png');
     background-size: cover;
     background-position: center;
     height: 130vh;
@@ -125,7 +125,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-2.png');
+    background-image: url('/img/bg/bg-desktop-2.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -156,7 +156,7 @@ body {
 @media screen and (max-width: 1000px) {
 
     #hero {
-    background-image: url('/img/bg-desktop-1.png');
+    background-image: url('/img/bg/bg-desktop-1.png');
     background-size: cover;
     background-position: center;
     width: auto;
@@ -186,7 +186,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-3.png');
+    background-image: url('/img/bg/bg-desktop-3.png');
     background-size: cover;
     background-position: center;
     width: auto;
@@ -215,7 +215,7 @@ body {
 @media screen and (max-width: 768px) {
 
     #hero {
-    background-image: url('/img/bg-desktop-1.png');
+    background-image: url('/img/bg/bg-desktop-1.png');
     background-size: cover;
     background-position: center;
     width: auto;
@@ -249,7 +249,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-3.png');
+    background-image: url('/img/bg/bg-desktop-3.png');
     background-size: cover;
     background-position: center;
     width: auto;
