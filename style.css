@@ -125,7 +125,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-2.jpg');
+    background-image: url('/img/bg-desktop-2.png');
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -160,11 +160,11 @@ body {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 30vh;
+    height: 60vh;
 }
 
 #hero .container{
-    height: 35vh;
+    height: 60vh;
 
 }
 
@@ -186,7 +186,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-3.jpg');
+    background-image: url('/img/bg-desktop-3.png');
     background-size: cover;
     background-position: center;
     width: auto;
@@ -219,11 +219,15 @@ body {
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 30vh;
+    height: 40vh;
+}
+
+#navBar .navbar-brand img{
+    width: 20vw;
 }
 
 #hero .container{
-    height: 35vh;
+    height: 50vh;
 
 }
 
@@ -245,7 +249,7 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg-desktop-3.jpg');
+    background-image: url('/img/bg-desktop-3.png');
     background-size: cover;
     background-position: center;
     width: auto;
