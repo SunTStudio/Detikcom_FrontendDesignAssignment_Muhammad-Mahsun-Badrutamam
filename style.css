@@ -59,7 +59,12 @@ body {
     background-image: url('/img/bg-desktop-1.png');
     background-size: cover;
     background-position: center;
-    height: 150vh;
+    height: 130vh;
+}
+
+#hero .container{
+    height: 130vh;
+
 }
 
 .shadow-text {
@@ -141,4 +146,102 @@ body {
     top: 10px; 
     left: 40vh;
     
+}
+
+
+
+
+
+/* Responsif Ipad */
+@media screen and (max-width: 1000px) {
+
+    #hero {
+    background-image: url('/img/bg-desktop-1.png');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 30vh;
+}
+
+#hero .container{
+    height: 35vh;
+
+}
+
+    #hero img{
+    height: auto;
+    width: 40vw;
+    display: block;
+}
+
+.carousel-indicators img{
+    width: 15vh;
+    display: block;
+    filter: grayscale(100%);
+}
+
+#sponsor img{
+    width: auto;
+    height: 8vh;
+}
+
+#berita {
+    background-image: url('/img/bg-desktop-3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 380vh;
+}
+}
+
+
+
+
+
+
+
+
+
+/* Responsif SmartPhone */
+
+@media screen and (max-width: 768px) {
+
+    #hero {
+    background-image: url('/img/bg-desktop-1.png');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 30vh;
+}
+
+#hero .container{
+    height: 35vh;
+
+}
+
+    #hero img{
+    height: auto;
+    width: 40vw;
+    display: block;
+}
+
+.carousel-indicators img{
+    width: 11vh;
+    display: block;
+    filter: grayscale(100%);
+}
+
+#sponsor img{
+    width: auto;
+    height: 5vh;
+}
+
+#berita {
+    background-image: url('/img/bg-desktop-3.jpg');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 320vh;
+}
+
 }
