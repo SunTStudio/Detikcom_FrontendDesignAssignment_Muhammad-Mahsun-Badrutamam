@@ -272,3 +272,13 @@ body {
     height: 4vh;
 }
 }
+
+@media screen and (max-width: 580px) and (min-width: 100px) {
+#berita {
+    background-image: url('/img/bg/bg-desktop-3.png');
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 380vh;
+}
+}
