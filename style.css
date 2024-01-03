@@ -153,6 +153,7 @@ body {
 
 
 
+
 /* Responsif Ipad */
 @media screen and (max-width: 1000px) {
 
@@ -182,8 +183,8 @@ body {
 }
 
 #sponsor img{
-    width: 216px;
-    height: 94px;
+    width: auto;
+    height: 8vh;
 }
 
 #berita {
