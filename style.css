@@ -134,6 +134,7 @@ body {
 
 #berita ul li{
     background-color: blue;
+    cursor:pointer;
 }
 
 .tombol{
@@ -181,8 +182,8 @@ body {
 }
 
 #sponsor img{
-    width: auto;
-    height: 8vh;
+    width: 216px;
+    height: 94px;
 }
 
 #berita {
