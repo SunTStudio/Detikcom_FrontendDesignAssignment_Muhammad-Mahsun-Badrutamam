@@ -149,10 +149,16 @@ body {
     
 }
 
-
-
-
-
+/* responsif mac book */
+@media screen and (max-width: 1280px) {
+    .card i{
+    position: absolute; 
+    float: left;
+    top: 10px; 
+    left: 35vh;
+    
+}
+}
 
 /* Responsif Ipad */
 @media screen and (max-width: 1000px) {
@@ -188,18 +194,19 @@ body {
 }
 
 #berita {
-    background-image: url('/img/bg/bg-desktop-3.png');
+    background-image: url('/img/bg/bg-desktop-4.png');
     background-size: cover;
     background-position: center;
     width: auto;
-    height: 380vh;
+    height: 110vh;
 }
 
 .card i{
     position: absolute; 
     float: left;
     top: 10px; 
-    left: 50vh;
+    left: 10vh;
+    font-size: 1vw;
     
 }
 }
@@ -267,13 +274,15 @@ body {
     position: absolute; 
     float: left;
     top: 10px; 
-    left: 35vh;
+    left: 5.5vh;
+    font-size: 1vw;
     
 }
 
 }
 
 @media screen and (max-width: 580px) {
+    
 #sponsor img{
     width: auto;
     height: 4vh;
@@ -288,4 +297,6 @@ body {
     width: auto;
     height: 400vh;
 }
+
+
 }
